@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.custom-navbar {
+  border: 2px solid rgba(128, 128, 128, 0.301); /* Example border style */
+  border-radius: 10px;
+}
+.weather-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.city-name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.current-time {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.weather-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.weather-info {
+  margin-top: 10px;
+}
+
+.current-temperature {
+  font-size: 48px;
+  font-weight: 600;
+  color: #333;
+}
+
+.weather-description {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.day-night-temps {
+  font-size: 14px;
+  color: #777;
+  font-weight: 500;
+}
+
+.search-bar {
+  border-radius: 20px;
+  padding: 12px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: 600;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
